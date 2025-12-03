@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Specialist Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      color: #1a1a1a;
+    }
+    header {
+      background: #0d1b2a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 42px;
+      margin: 0;
+    }
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    nav {
+      background: #1b263b;
+      display: flex;
+      justify-content: center;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      max-width: 1050px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-left: 6px solid #1b263b;
+      padding-left: 12px;
+    }
+    .about {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+    .about img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #1b263b;
+    }
+    .skills-list, .project-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    }
+    footer {
+      background: #0d1b2a;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 60px;
+    }
+    footer a {
+      color: #9cc1ff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>IT Specialist • Systems Administrator • Network Engineer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <img src="https://via.placeholder.com/180" alt="Profile Photo" />
+      <p>
+        I am a dedicated IT specialist with a strong background in systems administration,
+        network engineering, cybersecurity, and cloud infrastructure. Passionate about
+        optimizing technology environments, solving complex problems, and delivering
+        reliable technical solutions.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+      <div class="card">Server Administration (Windows & Linux)</div>
+      <div class="card">Network Configuration & Security</div>
+      <div class="card">Virtualization (VMware, Hyper‑V)</div>
+      <div class="card">Cloud (AWS, Azure, GCP)</div>
+      <div class="card">Scripting (Bash, PowerShell, Python)</div>
+      <div class="card">IT Support & Troubleshooting</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="card">
+        <h3><a href="project-network-monitoring.html">Network Monitoring System</a></h3>
+        <p>Designed and deployed a real-time network monitoring dashboard using open-source tools.</p>
+      </div>
+      <div class="card">
+        <h3><a href="project-cloud-migration.html">Secure Cloud Migration</a></h3>
+        <p>Migrated on-prem systems to AWS with improved security, redundancy, and automation.</p>
+      </div>
+      <div class="card">
+        <h3><a href="project-backup-solution.html">Automated Backup Solution</a></h3>
+        <p>Created a cross-platform backup and restore system using PowerShell & bash scripts.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <strong>youremail@example.com</strong></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name • IT Specialist Portfolio</p>
+  </footer>
+
+</body>
+</html>
